@@ -192,11 +192,20 @@ const AboutMe = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1 }}
         >
-          <a href="https://your-live-project.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Aniket-Rathour?tab=repositories" target="_blank" rel="noopener noreferrer">
             <Button>View Projects</Button>
           </a>
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Aniket-Rathour" target="_blank" rel="noopener noreferrer">
             <Button variant="outline">GitHub</Button>
+          </a>
+          <a href="https://www.linkedin.com/in/aniket-rathore-27a4192b5/" target="_blank" rel="noopener noreferrer">
+            <Button>Linkedin</Button>
+          </a>
+          <a href="https://www.instagram.com/toffee_chor/" target="_blank" rel="noopener noreferrer">
+            <Button variant="outline">Instagram</Button>
+          </a>
+          <a href="https://x.com/Aniket_rathore7" target="_blank" rel="noopener noreferrer">
+            <Button>Twitter</Button>
           </a>
         </motion.div>
       </section>

@@ -22,8 +22,7 @@ const images = [
         <div className="max-w-3xl text-center px-4">
           <h1 className="text-3xl font-semibold ">What We Offer?</h1>
           <p className="text-sm text-slate-500 mt-2 ">
-            A visual collection of our most recent works – each piece crafted
-            with intention, emotion, and style.
+            A visual representation of everything we offer, showcasing our vision, values, and the unique experiences we aim to create for our users.
           </p>
         </div>
 

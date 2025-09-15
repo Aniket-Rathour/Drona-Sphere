@@ -69,8 +69,8 @@ const RotatingText = forwardRef(({ texts, rotationInterval = 2500, auto = true, 
 
 // Main AboutMe Component
 const AboutMe = () => {
-  const roles = ["Developer", "aspiring AI/ML trainer", "Problem Solver", "Innovator"];
-  const skills = ["React", "JavaScript", "Node.js", "Python", "AWS", "Docker"];
+  const roles = ["Web-Developer", "aspiring_AI/ML_trainer", "Problem Solver", "Innovator"];
+  const skills = ["React", "JavaScript", "Node.js", "Python", "AWS", "Docker","Vite", "TailwindCSS", "Framer Motion", "GSAP animations"];
   const projects = [
     {
       id: 1,
@@ -106,8 +106,8 @@ const AboutMe = () => {
     }
   ];
   const experience = [
-    { id: 1, company: "Mangal Bajaar", position: "CHOR", duration: "2022 - Present", description: "Lead development of web apps" },
-    { id: 2, company: "Near Shiv Mandir", position: "harasser", duration: "2020 - 2022", description: "Target: badi bacchi/" },
+    { id: 1, company: "Mangal Bajaar", position: "CHOR", duration: "2022 - Present", description: "Target: wallet/mobiles/choti bachchi" },
+    { id: 2, company: "Near Shiv Mandir", position: "harasser", duration: "2020 - 2022", description: "Target: badi bachchi" },
   ];
 
   const [activeTab, setActiveTab] = useState("projects");
@@ -153,7 +153,7 @@ const AboutMe = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
         >
-          Hi, I'm <span className="text-gray-700">John Doe</span>
+          Hi, I'm <span className="text-gray-700">Aniket Rathore</span>
         </motion.h1>
 
         <motion.div
@@ -171,7 +171,10 @@ const AboutMe = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
         >
-          Passionate developer with expertise in modern web technologies. I love creating beautiful, functional applications that solve real-world problems.
+          First-year student exploring the world of web development, 
+          passionate about building creative and functional projects. 
+          Aspiring AI/ML engineer, eager to dive into the field soon and 
+          combine web and AI to solve real-world problems.
         </motion.p>
 
         <motion.div
@@ -284,10 +287,10 @@ const AboutMe = () => {
           animate={{ y: [0, -4, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
         >
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Aniket-Rathour/Drona-Sphere" target="_blank" rel="noopener noreferrer">
             <Button>Contribute on GitHub</Button>
           </a>
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Aniket-Rathour" target="_blank" rel="noopener noreferrer">
             <Button variant="outline">Star the Project</Button>
           </a>
         </motion.div>

@@ -8,5 +8,4 @@
 > — Fully accessible—**no local setup required**!  
 >  
 >  **Note:** Backend integration is **still in progress**. Currently, only the UI is functional.
-
 ---

@@ -37,7 +37,7 @@ function HeroSection2() {
           <div className="flex gap-4 flex-col">
             <h1
               className="text-5xl md:text-7xl max-w-2xl tracking-tighter text-center font-regular">
-              <span className="text-spektr-cyan-50">This is something</span>
+              <span className="text-spektr-cyan-50">Sphere where we</span>
               <span
                 className="relative flex w-full justify-center overflow-hidden text-center md:pb-4 md:pt-1">
                 &nbsp;

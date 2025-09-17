@@ -95,14 +95,6 @@ const AboutMe = () => {
       technologies: ["Next.js", "MongoDB"],
       githubUrl: "https://github.com/Aniket-Rathour/Todo-list",
       liveUrl: "https://todo-list-ecru-theta-40.vercel.app/"
-    },
-    {
-      id: 2,
-      title: "Carbon-cent",
-      description: "Eco-friendly Website",
-      technologies: ["Next.js", "MongoDB"],
-      githubUrl: "https://github.com/Aniket-Rathour/carbon-cents",
-      liveUrl: "https://carbon-cents.vercel.app/"
     }
   ];
   const experience = [
